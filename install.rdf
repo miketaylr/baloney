@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+    <Description about="urn:mozilla:install-manifest">
+        <em:id>baloney@miketaylr.com</em:id>
+        <em:type>2</em:type>
+        <em:name>baloney</em:name>
+        <em:version>1.0</em:version>
+        <em:bootstrap>true</em:bootstrap>
+        <em:description>h4x</em:description>
+        <em:creator>Mike Taylor</em:creator>
+
+        <!-- Mobile -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{aa3c5121-dab2-40e2-81ca-7ea25febc110}</em:id>
+                <em:minVersion>29.0</em:minVersion>
+                <em:maxVersion>40.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+
+        <em:iconURL>data:image/png;base64,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</em:iconURL>
+
+    </Description>
+</RDF>
