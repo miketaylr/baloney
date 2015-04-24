@@ -1,5 +1,7 @@
 # Baloney
 
+![baloney sandwich](sandwich.png)
+
 ### Installation
 
 1. Pick the right value for `ANDROID_APP_ID` in the `build` file.
