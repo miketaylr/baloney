@@ -1,5 +1,6 @@
 .DS_Store
 .metadata
+*.zip
 *.pyc
 *~
 .*.sw?

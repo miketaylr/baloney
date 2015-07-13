@@ -77,7 +77,7 @@ let gStringBundle = null;
 // This should be kept in sync with the values in locale/*/phony.properties
 let uas = [
   ["Default Firefox for Android", ""],
-  ["Android 4.4.4 version token", "Mozilla/5.0 (Android 4.4.4; Mobile; rv: 40.0) Gecko/40.0 Firefox/40.0"],
+  ["No Android version token", "Mozilla/5.0 (Android; Mobile; rv: 40.0) Gecko/40.0 Firefox/40.0"],
   ["AppleWebKit token", "Mozilla/5.0 (Android; Mobile; rv: 40.0) AppleWebKit/537.36 Gecko/40.0 Firefox/40.0"],
   ["Mobile Safari token", "Mozilla/5.0 (Android; Mobile; rv: 40.0) Mobile Safari Gecko/40.0 Firefox/40.0"],
   ["WebKit token + Android 4.4.4 version token", "Mozilla/5.0 (Android 4.4.4; Mobile; rv: 40.0) AppleWebKit/537.36 Gecko/40.0 Firefox/40.0"],
