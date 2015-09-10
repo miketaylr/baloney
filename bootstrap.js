@@ -78,12 +78,13 @@ let gStringBundle = null;
 let uas = [
   ["Default Firefox for Android", ""],
   ["No Android version token", "Mozilla/5.0 (Android; Mobile; rv: 40.0) Gecko/40.0 Firefox/40.0"],
-  ["AppleWebKit token", "Mozilla/5.0 (Android; Mobile; rv: 40.0) AppleWebKit/537.36 Gecko/40.0 Firefox/40.0"],
+  ["AppleWebKit token", "Mozilla/5.0 (Android; Mobile; rv: 40.0) AppleWebKit Gecko/40.0 Firefox/40.0"],
   ["Mobile Safari token", "Mozilla/5.0 (Android; Mobile; rv: 40.0) Mobile Safari Gecko/40.0 Firefox/40.0"],
   ["WebKit token + Android 4.4.4 version token", "Mozilla/5.0 (Android 4.4.4; Mobile; rv: 40.0) AppleWebKit/537.36 Gecko/40.0 Firefox/40.0"],
   ["Chrome Mobile UA", "Mozilla/5.0 (Linux; Android 4.4.4; A00001 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.108 Mobile Safari/537.36"],
   ["SH-01G", "Mozilla/5.0 (Android 4.4.4; Mobile; SH-01G Build/S4020; rv:40.0) Gecko/40.0 Firefox/40.0"],
   ["SO-02G", "Mozilla/5.0 (Android 4.4.4; Mobile; SO-02G Build/23.0.B.1.38; rv:40.0) Gecko/40.0 Firefox/40.0"],
+  ["B2G", "Mozilla/5.0 (Android; rv: 43.0) Gecko/43.0 Firefox/43.0"],
 ];
 
 function init(aEvent) {
